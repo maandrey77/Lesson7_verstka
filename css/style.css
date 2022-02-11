@@ -1,0 +1,116 @@
+/* &display=swap */
+
+@import "null.css";
+@font-face {
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.wrapper {
+	/* border: 2px solid black; */
+	margin: 0 350px 0 346px;
+	max-width: 810px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-style: normal;
+}
+.zagolov {
+	/* border: 1px solid black; */
+	margin: 0 0 40px 0;
+}
+.kartinka {
+	/* outline: 1px solid rgb(60, 226, 26); */
+	margin: 0 0 20px 0;
+}
+.kartinka_ {
+	margin: 0 0 60px 0;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 20px;
+	left: 346px;
+	/* text-align: left;
+	vertical-align: Center; */
+	height: 120px;
+}
+h1 {
+	font-family: "Lato";
+	font-weight: 900;
+	color: #1e212c;
+	line-height: 1.3;
+	font-size: 46px;
+	text-align: left;
+}
+.dvoinoi {
+	/* outline: 1px solid black; */
+	line-height: 25.6px;
+	font-size: 16px;
+}
+
+.text {
+	font-family: "Lato";
+	font-weight: 700;
+}
+.text1 .text1_ {
+	font-family: "Lato";
+	font-weight: 400;
+	line-height: 25.6;
+}
+.text1 {
+	margin: 0 0 15px 0;
+}
+
+.vtor {
+	font-weight: 400;
+	color: #424551;
+	font-size: 16px;
+	line-height: 25.6px;
+	margin: 0 0 24px 0;
+	/* border: 1px solid orange; */
+}
+
+.text3 {
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+}
+.text4 {
+	font-weight: 700;
+	font-size: 20px;
+	color: #1e212c;
+	line-height: 30px;
+	margin: 0 0 48px 58px;
+	text-align: left;
+	/* outline: 1px solid rgb(60, 226, 26); */
+}
+.numer {
+	/* border: 1px solid red; */
+	margin: 0 0 24px 0;
+}
+.perv {
+	font-weight: 400;
+	font-style: normal;
+	line-height: 25.6px;
+
+	background: url("../img/check.svg") 0 0 no-repeat;
+	padding: 0 0 0 30px;
+}
